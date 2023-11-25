@@ -6,11 +6,11 @@ Air warfare is the business of maintaining a higher situational awareness than t
 
 This has been a fact since the earliest days of war in the air.
 
-"The enemy must be surprised and attached at a disadvantage, if possible with superior numbers so the initiative was with the patrol... the combat must continue until the enmy has admitted his inferiority, by being shot down or running away."
+"The enemy must be surprised and attached at a disadvantage, if possible with superior numbers so the initiative was with the patrol... the combat must continue until the enemy has admitted his inferiority, by being shot down or running away."
 
 Oswald Boelcke in the "Dicta Boelcke", a World War 1 era flight combat manual.
 
-German aces of World War 2, such as Erich Hartmann (352 kills) and Gerd Barkhorn (302 kills) stressed what they referred to as "ambush tactics" in Europe. In the Pacific, American aces such as Richard Bong (40 kills) amd Tommy McGuire (38 kills) developed virtually identical tactics.
+German aces of World War 2, such as Erich Hartmann (352 kills) and Gerd Barkhorn (302 kills) stressed what they referred to as "ambush tactics" in Europe. In the Pacific, American aces such as Richard Bong (40 kills) and Tommy McGuire (38 kills) developed virtually identical tactics.
 
 A detailed analysis of 112 air combat engagements during the Vietnam War conducted by the US Air Force concluded that 80% of aircrew shot down were unaware of the impending attack. 
 
@@ -119,7 +119,7 @@ ultralytics         8.0.207
 |RT-DETR       |100     |0          |0          |0           |Optimiser - Adamax                          |
 |RT-DETR       |100     |nan        |nan        |nan         |Optimiser - AdamW                           |
 |RT-DETR       |200     |0.758      |0.759      |0.759       |Optimiser - SGD + extra augmentation        |
-|RT-DETR       |300     |0.758      |0.759      |0.759       |Optimiser - SGD + extra augmentation        | [TBA]
+|RT-DETR       |300     |0.751      |0.737      |0.715       |Optimiser - SGD + extra augmentation        |
 
 ## Classifier
 
