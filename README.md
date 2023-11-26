@@ -135,11 +135,11 @@ ultralytics         8.0.207
 |ConvNext Base |Nadam      |0.5144     |1.6397      |0.1886   |4.7987    |1hr 59m 7s   |
 |ConvNext Base |Ftrl       |0.0619     |3.6134      |0.0553   |3.6123    |2hr 47m 16s  | 
 
-# TODO
+# Program
 
-GUI
+The above has been consolidated into a single program with a GUI > run from interface.py.
 
-Combining everything into a single, coherent program
+Test images can be found in Assets.
 
 # Conclusions and recommendations
 
