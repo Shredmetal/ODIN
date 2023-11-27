@@ -16,7 +16,7 @@ A detailed analysis of 112 air combat engagements during the Vietnam War conduct
 
 "Despite vast changes in aircraft, sensor, communication, and weapon capabilities over the past century, the fundamental goal of air combat has remained constant: leverage superior [Situational Awareness] SA, to sneak into firing position, destroy the opposing aircraft, and depart before other enemy aircraft can react."
 
-Trends in Airt-to-air combat - Implications for Future Air Superiority, John Stillon, CSBA report.
+Trends in Air-to-air combat - Implications for Future Air Superiority, John Stillon, CSBA report.
 
 Modern sensors primarily focus on radar detection of hostile aircraft, with a dearth of ground-based optical sensors.
 
@@ -140,6 +140,9 @@ ultralytics         8.0.207
 The above has been consolidated into a single program with a GUI > run from interface.py.
 
 Test images can be found in Assets.
+
+A video of the program working can be found here: 
+https://www.youtube.com/watch?v=MkIymKNswYQ
 
 # Conclusions and recommendations
 
