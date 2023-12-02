@@ -75,30 +75,66 @@ CUDA >= 11.8
 # Detector Notebook Requirements
 
 cv2                 4.8.1
+
 matplotlib          3.7.2
+
 numpy               1.25.2
+
 pandas              2.1.0
+
 sklearn             1.3.0
+
 tqdm                4.66.1
+
 ultralytics         8.0.207
+
 yaml                6.0.1
 
 # Classifier Notebook Requirements:
 
 keras               2.14.0
+
 keras-core           0.1.7
+
 #matplotlib          3.7.2
+
 numpy               1.25.2
 
 # Function testing and development Notebook Requirements:
 
 cv2                 4.8.1
+
 geographiclib       2.0
+
 keras_core          0.1.7
+
 matplotlib          3.7.2
+
 numpy               1.25.2
+
 pandas              2.1.0
+
 ultralytics         8.0.207
+
+# py files requirements:
+
+geographiclib==2.0
+
+keras-core==0.1.7
+
+numpy==1.26.2
+
+opencv-python==4.8.1.78
+
+pandas==2.1.3
+
+pytz==2023.3.post1
+
+torch==2.1.1
+
+torchvision==0.16.1
+
+ultralytics==8.0.218
 
 # Model Performance
 
@@ -106,20 +142,10 @@ ultralytics         8.0.207
 
 | Model        | Epochs | Precision | Recall    | mAP50      | Remarks                                    |
 |--------------|--------|-----------|-----------|------------|--------------------------------------------|
-|Yolov8        |300     |0.229      |0.171      |0.122       |Wholly unacceptable                         |
-|RT-DETR       |100     |0.762      |0.756      |0.753       |Optimiser - SGD                             |  
-|RT-DETR       |200     |0.751      |0.742      |0.708       |Optimiser - SGD                             |
-|RT-DETR       |300     |0.754      |0.727      |0.745       |Optimiser - SGD                             |
-|RT-DETR       |100     |0.767      |0.7        |0.728       |Cos LR Scheduler                            |
-|RT-DETR       |200     |0.754      |0.692      |0.719       |Cos LR Scheduler                            |
-|RT-DETR       |100     |0.468      |0.401      |0.363       |Cos LR Scheduler + extra mixup augmentation |
-|RT-DETR       |200     |0.649      |0.614      |0.517       |Cos LR Scheduler + extra mixup augmentation |
-|RT-DETR       |300     |0.712      |0.652      |0.662       |Cos LR Scheduler + extra mixup augmentation |
-|RT-DETR       |400     |0.713      |0.683      |0.687       |Cos LR Scheduler + extra mixup augmentation |
-|RT-DETR       |100     |0          |0          |0           |Optimiser - Adamax                          |
-|RT-DETR       |100     |nan        |nan        |nan         |Optimiser - AdamW                           |
-|RT-DETR       |200     |0.758      |0.759      |0.759       |Optimiser - SGD + extra augmentation        |
-|RT-DETR       |300     |0.751      |0.737      |0.715       |Optimiser - SGD + extra augmentation        |
+|RT-DETR       |100     |0.953      |0.866      |0.902       |This performance is acceptable              |
+|RT-DETR       |100     |0.TBA      |0.TBA      |0.TBA       |With additional augmentations               |
+|RT-DETR       |100     |0.TBA      |0.TBA      |0.TBA       |Cosine LR scheduler                         |
+|YOLOv8        |100     |0.TBA      |0.TBA      |0.TBA       |TBA                                         |
 
 ## Classifier
 
