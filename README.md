@@ -64,7 +64,7 @@ A passive sensor would permit the radars to remain off until the target enters t
 
 1. Accuracy.
 
-2. Precision/Recall.
+2. mAP-50.
 
 # Hardware and related requirements
 
@@ -145,8 +145,8 @@ ultralytics==8.0.218
 |RT-DETR       |100     |0.953      |0.866      |0.902       |This performance is acceptable              |
 |RT-DETR       |100     |0.936      |0.875      |0.905       |With additional augmentation                |
 |RT-DETR       |100     |0.953      |0.849      |0.889       |With less augmentation                      |
-|RT-DETR       |100     |0.TBA      |0.TBA      |0.TBA       |Cosine LR scheduler                         |
-|YOLOv8        |100     |0.TBA      |0.TBA      |0.TBA       |TBA                                         |
+|RT-DETR       |100     |0.96       |0.868      |0.902       |Using cosine LR scheduler                   | 
+|YOLOv8        |100     |0.89       |0.778      |0.883       |Somewhat worse performance                  |
 
 ## Classifier
 
